@@ -1,0 +1,11 @@
+.sprite {
+    width: 400px;
+    height: 400px;
+    background: url(Animation\ Workshop.webp) 0 0 no-repeat;
+    animation: play 3s steps(15) infinite;
+}
+
+@keyframes play {
+    0% {background-position: 0px;}
+    100% {background-position: -6000px}
+}
